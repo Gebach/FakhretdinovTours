@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FamiliyaTours"
         mc:Ignorable="d"
-        Title="Familiya Tours" Height="450" Width="800">
+        Title="Fakhretdinov Tours" Height="450" Width="800"
+        Icon="resources1\logo.png">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="75"/>
@@ -16,7 +17,7 @@
         <Grid Background="#bae3e8" Grid.Row="0"></Grid>
         <Image Source="resources1\logo.png" HorizontalAlignment="Left"></Image>
 
-        <TextBlock Text="Header" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30"></TextBlock>
+        <TextBlock Text="Турагенство" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30"></TextBlock>
 
         <Grid Grid.Row="2" Background="#445c93"></Grid>
 
